@@ -10,7 +10,18 @@ public class Läxa1 {
 		
 		System.out.println("hur gammal ar du ?");
 		String age = input.nextLine();
-		System.out.println("vad ar din adress");
+		System.out.println("vad ar din adress?");
+		string adress = input.nextLine();
+		
+		System.out.println("postnummer?");
+		string postnummer = input.nextLine();
+		
+		System.out.println("Ort?");
+		string ort = input.nextLine();
+		
+		System.out.println("Telefonnummer?");
+		string telefonnummer = input.nextLine();
+		
 	
 	
 	}
