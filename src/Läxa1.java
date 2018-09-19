@@ -5,25 +5,29 @@ public class Läxa1 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("vad heter du");
-		
+
 		String namn = input.nextLine();
-		
+
 		System.out.println("hur gammal ar du ?");
 		String age = input.nextLine();
 		System.out.println("vad ar din adress?");
-		string adress = input.nextLine();
-		
+		String adress = input.nextLine();
+
 		System.out.println("postnummer?");
-		string postnummer = input.nextLine();
-		
+		String postnummer = input.nextLine();
+
 		System.out.println("Ort?");
-		string ort = input.nextLine();
-		
+		String ort = input.nextLine();
+
 		System.out.println("Telefonnummer?");
-		string telefonnummer = input.nextLine();
+		String telefonnummer = input.nextLine();
+		System.out.println("vad heter du"+ namn);
 		
-	
-	
+		System.out.println("hur gammal ar du ?"+" "+age);
+		System.out.println("vad ar din adress?"+" "+adress);
+		System.out.println("\t"+postnummer+" "+ort);
+		System.out.println("Telefonnummer"+" "+telefonnummer);
+		
 	}
-	
+
 }
