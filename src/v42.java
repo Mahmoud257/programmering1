@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class v42 {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		Scanner Input = new Scanner(System.in);
 
-		String str = input.next();
-		double radius = input.nextDouble();
-		String ord = input.next();
-		char c = input.next().charAt(0);
-		String in = input.next();
+		
+		double radius = Input.nextDouble();
+		String ord = Input.next();
+		char c = Input.next().charAt(0);
+		String in = Input.next();
 		System.out.println(volume(radius));
 		System.out.println(backa(in));
 		System.out.println(räkna(ord, c));
